@@ -1,22 +1,22 @@
 # -*- coding:utf-8 -*-
+
 import caffe
 import cluster2d as ct
 import numpy as np 
-import featuregenerate as fg 
-import validpoint as vp
+import featuregenerate as fg
 import pointcloud as pc 
-import matplotlib.pyplot as plt 
-import matplotlib.patches as patch 
+
+
 
 class CNNSegmention():
     def __init__(self):
-        self.feature_blob=None
-        self.outblobs=None
-        self.vldpc=None
-        self.cluster=None
+        self.vldpc=None # 有效(ROI)投射点云类
+        self.feature_blob=None # 生成的特征通道数据
+        self.cnnseg_Net=None # cnnseg Net 模型
+        self.cluster=None # 簇类
     
     def forward(self,proto_path,caffe_model_path,
-                PCD_Path,USE_CAFFE_GPU=False):
+                PCD_Path,USE_CAFFE_GPU=False,readformat='bin'):
         if USE_CAFFE_GPU:
             caffe.set_mode_gpu()
             caffe.set_device(0)
@@ -24,9 +24,13 @@ class CNNSegmention():
             caffe.set_mode_cpu()
         # step1 : feature_generate
         rawpoint=pc.PointCloud()
-        rawpoint.ReadFromBinFile(PCD_Path)
-        self.vldpc=vp.ValidPoints(pcdata=rawpoint,rows=640,cols=640,
-                             lrange=60,max_height=5,min_height=-5)
+        if readformat=='bin':
+            rawpoint.ReadFromBinFile(PCD_Path)
+        elif readformat=='pcd':
+            rawpoint.ReadFromPcdFile(PCD_Path)
+        else:
+            print('未知格式,点云读取失败!\n unknow format，Failure!')
+        self.vldpc=rawpoint.project2map()
         ffg=fg.FeatureGenerator()
         self.feature_blob=ffg.Generate(self.vldpc)
         # setp2 : load caffe model and forword

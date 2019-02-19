@@ -31,9 +31,9 @@ class PointCloud():
 
     def findROIdata(self,xlimits,ylimits,zlimits):
         vldpc=PointCloud()
-        idx=np.all([self.x>=xlimits[0],self.x<=xlimits[1],
-                    self.y>=ylimits[0],self.y<=ylimits[1],
-                    self.z>=zlimits[0],self.z<=zlimits[1]],axis=0)
+        idx=np.all([self.x>xlimits[0],self.x<=xlimits[1],
+                    self.y>ylimits[0],self.y<=ylimits[1],
+                    self.z>zlimits[0],self.z<=zlimits[1]],axis=0)
         vldpc.x=self.x[idx]
         vldpc.y=self.y[idx]
         vldpc.z=self.z[idx]
@@ -41,11 +41,23 @@ class PointCloud():
         vldpc.counts=vldpc.x.size
         return vldpc    
 
+    def project2map(self,xlimits,ylimits,zlimits,rows,cols):
+        vldpc=self.findROIdata(xlimits,ylimits,zlimits)
+        vldpc.roi=np.vstack((xlimits,ylimits,zlimits))
+        vldpc.maprow=self.F2I(vldpc.x,rows,xlimits[1])
+        vldpc.mapcol=self.F2I(vldpc.y,cols,ylimits[1])
+        return vldpc
+
+    @staticmethod
+    def F2I(x,rows,lrange):
+        return np.floor(rows*(lrange-x)/(2*lrange)).astype(np.int32)
+
 
 if __name__=="__main__":
     pc=PointCloud()
-    pc.ReadFromBinFile('/home/reme/桌面/Lidar_Perception_Apollo/data/67.bin')
-    vldpc=pc.findROIdata([-60,60],[-60,60],[-5,5])
+    pc.ReadFromBinFile('/home/reme/桌面/Lidar_Perception_Apollo/data/51.bin')
+    roipc=pc.findROIdata([-60,60],[-60,60],[-5,5])
+    vldpc=pc.project2map([-60,60],[-60,60],[-5,5],640,640)
     import sys 
     sys.path.append('/home/reme/桌面/Lidar_Perception_Apollo/src/Visualization')
     import visualize as vlz 
