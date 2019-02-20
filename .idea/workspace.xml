@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ff3b60-fe3d-4cd0-89ea-2b2ff3c4114d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lidar_Perception_Apollo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lidar_Perception_Apollo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pointcloud/pointcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pointcloud/pointcloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnnseg/cluster2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/cluster2d.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cnnseg/pointcloud.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnnseg/featuregenerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/featuregenerate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +20,21 @@
     <favorites_list name="Lidar_Perception_Apollo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cnnseg/featuregenerate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-51">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#24#36#0" expanded="true" />
               </folding>
@@ -31,7 +42,47 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cnnseg/cluster2d.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+              <folding>
+                <element signature="e#23#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pointcloud/pointcloud.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>map</find>
+      <find>ii</find>
+      <find>idx_row</find>
+      <find>idx_col</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>maprow</replace>
+      <replace>mapcol</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +90,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Visualization/__init__.py" />
+        <option value="$PROJECT_DIR$/src/cnnseg/featuregenerate.py" />
+        <option value="$PROJECT_DIR$/src/Pointcloud/pointcloud.py" />
+        <option value="$PROJECT_DIR$/src/cnnseg/cluster2d.py" />
         <option value="$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py" />
       </list>
     </option>
@@ -48,6 +103,9 @@
     <option name="y" value="24" />
     <option name="width" value="1295" />
     <option name="height" value="704" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -64,6 +122,16 @@
             <path>
               <item name="Lidar_Perception_Apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lidar_Perception_Apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lidar_Perception_Apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lidar_Perception_Apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lidar_Perception_Apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lidar_Perception_Apollo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -76,7 +144,25 @@
               <item name="Lidar_Perception_Apollo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lidar_Perception_Apollo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="minbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lidar_Perception_Apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lidar_Perception_Apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pointcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lidar_Perception_Apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lidar_Perception_Apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lidar_Perception_Apollo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lidar_Perception_Apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Visualization" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,11 +173,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Lidar_Perception_Apollo" is-module-sdk="true">
+        <option name="useSoftWraps" value="true" />
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="Lidar_Perception_Apollo" />
       </console-settings>
@@ -109,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.cnnsegmentation">
     <configuration name="cnnsegmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lidar_Perception_Apollo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,9 +218,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="featuregenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lidar_Perception_Apollo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/cnnseg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/cnnseg/featuregenerate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.cnnsegmentation" />
+        <item itemvalue="Python.featuregenerate" />
       </list>
     </recent_temporary>
   </component>
@@ -160,33 +269,79 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
+    <frame x="50" y="-11" width="1317" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5015528" side_tool="true" weight="0.24554609" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.24554609" />
-      <window_info id="Structure" order="1" sideWeight="0.5015528" side_tool="true" weight="0.24554609" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32919255" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32919255" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.21456236" />
+      <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.21456236" />
+      <window_info id="Favorites" order="2" sideWeight="0.503876" side_tool="true" weight="0.21456236" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" x="63" y="273" width="1291" height="212" id="Python Console" order="5" weight="0.32919255" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32919255" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" x="63" y="250" width="1291" height="257" id="Debug" order="10" visible="true" weight="0.39751554" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Visualization/__init__.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/caffe/lib/python3.5/site-packages/pcl/io/file_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/featuregenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pointcloud/pointcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/cluster2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-51">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#24#36#0" expanded="true" />
           </folding>
