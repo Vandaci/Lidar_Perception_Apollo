@@ -43,6 +43,24 @@ def drawrec(rec4points):
     mlab.plot3d(rec4points[:,0],rec4points[:,1],
                 rec4points[:,2],tube_radius=None,figure=fig)
 
+def drawfrom4points(x,y,height,clr):
+    color_type={'Vehicle':(1,0,0),'Pedestrian':(0,1,0),
+                'Bicycle':(0,0,1),'Unknown':(1,1,0)}
+    fig=mlab.gcf()
+    x=np.hstack((x,x[0]))
+    x=np.hstack((x,x))
+    y=np.hstack((y,y[0]))
+    y=np.hstack((y,y))
+    z=np.hstack((height[0]*np.ones((5,)),
+                 height[1]*np.ones((5,))))
+    mlab.plot3d(x,y,z,figure=fig,tube_radius=None,color=color_type[clr])
+    for idx in np.arange(1,4):
+        xnew=np.vstack((x[idx],x[idx+5]))
+        ynew=np.vstack((y[idx],y[idx+5]))
+        znew=np.vstack((z[idx],z[idx+5]))
+        mlab.plot3d(xnew,ynew,znew,figure=fig,tube_radius=None,color=color_type[clr])
+
+
 
 if __name__=='__main__':
     center=np.array([-10.4464406967,1.63741445541,-0.878034293652])
