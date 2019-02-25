@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ff3b60-fe3d-4cd0-89ea-2b2ff3c4114d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minbox/minbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minbox/projpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minbox/rec4points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test_Minbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test_convex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test_rec4points.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Lidar_Perception_Apollo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lidar_Perception_Apollo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pointcloud/pointcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pointcloud/pointcloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cnnseg/cluster2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/cluster2d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cnnseg/featuregenerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/featuregenerate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visualization/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visualization/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnnseg/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnnseg/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnnseg/obstacle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/obstacle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnnseg/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnnseg/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnnseg/validpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minbox/projpoint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minbox/rec4points.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minbox/sim_min_box.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minbox/tst_projpoint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_visualize2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_visualize2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,31 +34,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cnnseg/featuregenerate.py">
+        <entry file="file://$PROJECT_DIR$/src/test/test_Minbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="68">
+              <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="20" />
               <folding>
-                <element signature="e#24#36#0" expanded="true" />
+                <element signature="e#24#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cnnseg/cluster2d.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/minbox/minbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+            <state relative-caret-position="239">
+              <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
               <folding>
                 <element signature="e#23#41#0" expanded="true" />
               </folding>
@@ -55,10 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pointcloud/pointcloud.py">
+        <entry file="file://$PROJECT_DIR$/src/minbox/rec4points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+            <state relative-caret-position="176">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -78,6 +81,7 @@
       <find>ii</find>
       <find>idx_row</find>
       <find>idx_col</find>
+      <find>argmin</find>
     </findStrings>
     <replaceStrings>
       <replace>maprow</replace>
@@ -95,14 +99,28 @@
         <option value="$PROJECT_DIR$/src/Pointcloud/pointcloud.py" />
         <option value="$PROJECT_DIR$/src/cnnseg/cluster2d.py" />
         <option value="$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py" />
+        <option value="$PROJECT_DIR$/src/cnnseg/node.py" />
+        <option value="$PROJECT_DIR$/src/cnnseg/objects.py" />
+        <option value="$PROJECT_DIR$/src/cnnseg/obstacle.py" />
+        <option value="$PROJECT_DIR$/src/cnnseg/util.py" />
+        <option value="$PROJECT_DIR$/src/Visualization/visualize.py" />
+        <option value="$PROJECT_DIR$/src/minbox/test_minbox.py" />
+        <option value="$PROJECT_DIR$/src/minbox/calrec4points.py" />
+        <option value="$PROJECT_DIR$/src/minbox/projpoint.py" />
+        <option value="$PROJECT_DIR$/src/minbox/rec4points.py" />
+        <option value="$PROJECT_DIR$/src/test/test_convex.py" />
+        <option value="$PROJECT_DIR$/src/test/test_rec4points.py" />
+        <option value="$PROJECT_DIR$/src/test/test_visualize2.py" />
+        <option value="$PROJECT_DIR$/src/test/test_Minbox.py" />
+        <option value="$PROJECT_DIR$/src/minbox/minbox.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
-    <option name="y" value="24" />
-    <option name="width" value="1295" />
-    <option name="height" value="704" />
+    <option name="x" value="88" />
+    <option name="y" value="-4" />
+    <option name="width" value="646" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -173,7 +191,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -183,6 +202,14 @@
         <option name="myModuleName" value="Lidar_Perception_Apollo" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Visualization" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,8 +223,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cnnsegmentation">
-    <configuration name="cnnsegmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.minbox">
+    <configuration name="minbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lidar_Perception_Apollo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +232,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/cnnseg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/minbox" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/minbox/minbox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="featuregenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_Minbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lidar_Perception_Apollo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,11 +253,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/cnnseg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/cnnseg/featuregenerate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/test_Minbox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_convex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lidar_Perception_Apollo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/test_convex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_rec4points" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lidar_Perception_Apollo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/test_rec4points.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_visualize2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lidar_Perception_Apollo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/test_visualize2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,8 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cnnsegmentation" />
-        <item itemvalue="Python.featuregenerate" />
+        <item itemvalue="Python.minbox" />
+        <item itemvalue="Python.test_Minbox" />
+        <item itemvalue="Python.test_visualize2" />
+        <item itemvalue="Python.test_rec4points" />
+        <item itemvalue="Python.test_convex" />
       </list>
     </recent_temporary>
   </component>
@@ -269,15 +362,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="-11" width="1317" height="780" extended-state="6" />
+    <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49612403" visible="true" weight="0.21456236" />
-      <window_info id="Structure" order="1" sideWeight="0.503876" side_tool="true" weight="0.21456236" />
-      <window_info id="Favorites" order="2" sideWeight="0.503876" side_tool="true" weight="0.21456236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.21456236" />
+      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.21456236" />
+      <window_info id="Favorites" order="2" sideWeight="0.5050505" side_tool="true" weight="0.21456236" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23136646" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" x="63" y="273" width="1291" height="212" id="Python Console" order="5" weight="0.22981367" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32919255" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" x="63" y="250" width="1291" height="257" id="Debug" order="10" weight="0.38198757" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.21456236" />
+      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.21456236" />
+      <window_info id="Favorites" order="2" sideWeight="0.5050505" side_tool="true" weight="0.21456236" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23136646" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" x="63" y="273" width="1291" height="212" id="Python Console" order="5" weight="0.32919255" />
@@ -285,11 +397,36 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="63" y="250" width="1291" height="257" id="Debug" order="10" visible="true" weight="0.39751554" />
+      <window_info active="true" anchor="bottom" x="63" y="250" width="1291" height="257" id="Debug" order="10" visible="true" weight="0.38198757" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>self.valid_bon</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bon_Points-min_point</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Visualization/__init__.py" />
@@ -314,10 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cnnseg/featuregenerate.py">
+    <entry file="file://$PROJECT_DIR$/data/67.bin.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="150">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -328,10 +465,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/validpoint.py" />
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/featuregenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-606">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/obstacle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cnnseg/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cnnseg/cluster2d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+        <state relative-caret-position="-833">
+          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
           <folding>
             <element signature="e#23#41#0" expanded="true" />
           </folding>
@@ -340,10 +513,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cnnseg/cnnsegmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="-334">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#24#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visualization/drawcuboid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visualization/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#25#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minbox/projpoint.m" />
+    <entry file="file://$PROJECT_DIR$/src/minbox/sim_min_box.m" />
+    <entry file="file://$PROJECT_DIR$/src/minbox/rec4points.m" />
+    <entry file="file://$PROJECT_DIR$/src/minbox/tst_projpoint.m" />
+    <entry file="file://$PROJECT_DIR$/src/minbox/projpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minbox/calrec4points.py" />
+    <entry file="file://$PROJECT_DIR$/src/test/test_minbox.py" />
+    <entry file="file://$PROJECT_DIR$/src/test/test_visualize2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_rec4points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_convex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/caffe/lib/python3.5/site-packages/matplotlib/artist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="910" column="16" selection-start-line="910" selection-start-column="16" selection-end-line="910" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/caffe/lib/python3.5/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/caffe/lib/python3.5/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_Minbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minbox/rec4points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minbox/minbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
